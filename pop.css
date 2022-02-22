@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: rgb(80, 77, 77);
+    text-align: center;
+} 
+ body{
+     display: grid;
+    place-items: center;
+    background-color: gray;
+}
+img{
+    width: 100%;
+}
+/* ---------------------------------------------- */
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.billie{
+background-color: rgb(193, 156, 101);
+border: none;
+border-radius: 5px;
+}
+.billie :hover{
+    transition-duration: 1s;
+    
+    color: white;
+}
